@@ -292,7 +292,7 @@ a {
 }
 .spons_blocks {
   align-items: center;
-  width: 800px;
+  width: 757px;
   display: flex;
   justify-content: space-between;
 }
@@ -335,6 +335,7 @@ a {
 }
 .last_blocks {
   margin-top: 48px;
+  align-items: center;
   width: 800px;
   display: flex;
   justify-content: space-between;

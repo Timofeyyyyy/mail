@@ -1,0 +1,394 @@
+@media (max-width: 900px) {
+  /* general */
+  .container {
+    width: 730px;
+    margin: 0 auto;
+  }
+  .body_block_btn {
+    width: 100%;
+  }
+  .main_block {
+    width: 700px;
+  }
+}
+@media (max-width: 800px) {
+  /* general */
+  .container {
+    width: 630px;
+    margin: 0 auto;
+  }
+
+  .main_block {
+    width: 600px;
+  }
+  .img_main_fon {
+    width: 400px;
+  }
+  .elips_hidden {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .elips {
+    display: none;
+  }
+  .spons_blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+  }
+  .last_block {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+  }
+}
+@media (max-width: 700px) {
+  /* general */
+  .container {
+    width: 530px;
+    margin: 0 auto;
+  }
+
+  .spons_block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .elips {
+    display: none;
+  }
+  .last_blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .first_last_block_hidden {
+    display: block;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .first_last_block {
+    display: none;
+  }
+  .last_content {
+    display: flex;
+    justify-content: center;
+  }
+  .header_title {
+    font-size: 32px;
+  }
+  .cactus_wrapper {
+    width: 77px;
+  }
+  .cactus {
+    width: 55px;
+  }
+  .cactus_wrapper {
+    right: 7px;
+    bottom: 13px;
+  }
+  .main_block {
+    width: 500px;
+  }
+  .main_p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+  .cashback_procent {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: -0.03em;
+
+    color: #c9ff57;
+  }
+  .cashback_p {
+    font-size: 25px;
+  }
+  .deposit_title {
+    font-size: 28px;
+  }
+}
+@media (max-width: 600px) {
+  /* general */
+  .container {
+    width: 430px;
+    margin: 0 auto;
+  }
+
+  .spons_block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .elips {
+    display: none;
+  }
+  .last_blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .first_last_block_hidden {
+    display: block;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .first_last_block {
+    display: none;
+  }
+  .last_content {
+    display: flex;
+    justify-content: center;
+  }
+  .header_title {
+    font-size: 32px;
+  }
+  .cactus_wrapper {
+    width: 77px;
+  }
+  .cactus {
+    width: 55px;
+  }
+  .cactus_wrapper {
+    right: 7px;
+    bottom: 13px;
+  }
+  .main_block {
+    width: 400px;
+  }
+  .body_block_btn_content {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+  }
+  .body_block_btn {
+    padding: 5px 0px;
+  }
+  .body_block_p {
+    width: 200px;
+  }
+  .header_block {
+    height: 286px;
+  }
+  .deposit_title {
+    display: none;
+  }
+  .deposit_title_hidden {
+    display: block;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    width: 280px;
+    margin-top: -40px;
+  }
+  .header_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 800px;
+    margin-top: 32px;
+    height: 264px;
+
+    border-radius: 24px;
+  }
+  .main_p_wrapper {
+    width: 300px;
+  }
+  .header_block .deposit {
+    position: absolute;
+    bottom: -55px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .footer {
+    margin-top: 230px;
+    margin-bottom: 50px;
+  }
+  .main_p_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+  }
+  .main_p_hidden {
+    display: block;
+    font-size: 24px;
+  }
+  .main_p_cash {
+    display: none;
+  }
+  .main_content {
+    padding: 24px;
+  }
+}
+@media (max-width: 500px) {
+  /* general */
+  .container {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .spons_block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .elips {
+    display: none;
+  }
+  .last_blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .first_last_block_hidden {
+    display: block;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .first_last_block {
+    display: none;
+  }
+  .last_content {
+    display: flex;
+    justify-content: center;
+  }
+  .header_title {
+    font-size: 32px;
+  }
+  .cactus_wrapper {
+    width: 77px;
+  }
+  .cactus {
+    width: 55px;
+  }
+  .cactus_wrapper {
+    right: 7px;
+    bottom: 13px;
+  }
+  .main_block {
+    width: 330px;
+  }
+  .body_block_btn_content {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+  }
+  .body_block_btn {
+    padding: 5px 0px;
+  }
+  .body_block_p {
+    width: 200px;
+  }
+  .header_block {
+    height: 286px;
+  }
+  .deposit_title {
+    display: none;
+  }
+  .deposit_title_hidden {
+    display: block;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    width: 280px;
+    margin-top: -40px;
+  }
+  .header_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 800px;
+    margin-top: 32px;
+    height: 264px;
+
+    border-radius: 24px;
+  }
+  .main_p_wrapper {
+    width: 300px;
+  }
+  .header_block .deposit {
+    position: absolute;
+    bottom: -55px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .footer {
+    margin-top: 230px;
+    margin-bottom: 50px;
+  }
+  .img_main_fon {
+    width: 350px;
+  }
+  .btn {
+    margin-top: 105px;
+  }
+  .two_btn {
+    margin-top: 135px;
+  }
+  .cashback_line {
+    width: 160px;
+    margin-left: -5px;
+    margin-top: -10px;
+  }
+  .nav_line {
+    font-size: 10px;
+  }
+  .header_block {
+    height: 208px;
+  }
+  .header_fon {
+    display: none;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    opacity: 0.3;
+    border-radius: 24px;
+  }
+  .header_fon_hidden {
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    top: 0;
+    width: 100%;
+    opacity: 0.3;
+    border-radius: 24px;
+  }
+  .deposit_title_hidden {
+    margin-bottom: 10px;
+  }
+  .line_header {
+    width: 160px;
+  }
+  .wolf {
+    width: 430px;
+  }
+  .btn_p {
+    font-size: 16px;
+  }
+  .king_p {
+    font-size: 28px;
+  }
+}
