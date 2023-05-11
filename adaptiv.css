@@ -17,7 +17,9 @@
     width: 630px;
     margin: 0 auto;
   }
-
+  .spons_blocks {
+    width: 100%;
+  }
   .main_block {
     width: 600px;
   }
