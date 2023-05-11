@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Object Sans';
+    src: local('Object Sans Regular'), local('Object-Sans-Regular'),
+        url('ObjectSans-Regular.woff2') format('woff2'),
+        url('ObjectSans-Regular.woff') format('woff'),
+        url('ObjectSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
